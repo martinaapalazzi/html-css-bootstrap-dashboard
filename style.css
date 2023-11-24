@@ -1,0 +1,19 @@
+
+/* MEDIA QUERY MOBILE */ 
+
+@media (max-width: 576px) { 
+    .icons-none {
+        display: none;
+    }
+}
+
+
+@media (max-width: 768px) { 
+    button p {
+        display: none;
+    }
+}
+    
+
+
+
