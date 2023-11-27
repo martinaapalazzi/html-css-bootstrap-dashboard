@@ -35,8 +35,16 @@
     background-color: rgb(22, 91, 186);
 }
 
+.my-offcanvas-size {
+    width: 50%;
+}
+
 .my-cell-table {
     width: 300px;
+}
+
+.logo-2 {
+    display: none;
 }
 
 .icon-table {
@@ -85,9 +93,7 @@
         display: none;
     }
 
-    .logo-2 {
-        display: none;
-    }
+   
 
     .icons-none {
         display: none;
@@ -109,10 +115,6 @@
         background-color: transparent;
     }
 
-    .my-data-inizio {
-        display: none;
-    }
-
 
 }
     
@@ -122,10 +124,21 @@
 
 /* MEDIA QUERY TABLET */ 
 
-@media (max-width: 992px) { 
+@media (max-width: 768px) { 
+
+    .img-md-logo {
+        display: block;
+        width: 100px;
+    }
+
     .my-offcanvas-size {
         width: 100%;
     }
+
+    .my-data-inizio {
+        display: none;
+    }
+
 
 }
 
@@ -137,7 +150,10 @@
 /* MEDIA QUERY MOBILE */ 
 
 @media (max-width: 576px) { 
-   
+
+    .my-roi {
+        display: none;
+    }
 }
 
 
