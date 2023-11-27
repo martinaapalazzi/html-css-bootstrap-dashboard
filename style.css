@@ -14,6 +14,8 @@
 
 .my-search-bar {
     box-shadow: none;
+    border: 1px grey solid;
+    border-radius: 20px;
 }
 
 .my-aside {
@@ -23,6 +25,10 @@
 .my-badge-button {
     background-color: transparent;
     border: none;
+}
+
+.my-badge-special-button {
+    display: none;
 }
 
 .badge {
@@ -68,14 +74,7 @@
 
 
 
-
-
-/* MEDIA QUERY MOBILE */ 
-
-@media (max-width: 576px) { 
-    
-}
-
+/* MEDIA QUERY DESKTOP  <img class="logo-2" src="mobile-logo.png" alt="">*/ 
 
 @media (max-width: 992px) { 
     button p {
@@ -86,16 +85,61 @@
         display: none;
     }
 
-    .col-auto img .logo-2 {
-        width: 10%;
-        display: block;
+    .logo-2 {
+        display: none;
     }
 
     .icons-none {
         display: none;
     }
+
+    .my-aside-buttons {
+        display: none;
+    }
+
+    .my-badge-button {
+        display: none;
+    }
+
+
+    .my-badge-special-button,
+    .my-badge-special-button-1 {
+        display: block;
+        border: none;
+        background-color: transparent;
+    }
+
+    .my-data-inizio {
+        display: none;
+    }
+
+
 }
     
+
+
+
+
+/* MEDIA QUERY TABLET */ 
+
+@media (max-width: 992px) { 
+    .my-offcanvas-size {
+        width: 100%;
+    }
+
+}
+
+
+
+
+
+
+/* MEDIA QUERY MOBILE */ 
+
+@media (max-width: 576px) { 
+   
+}
+
 
 
 
