@@ -4,6 +4,27 @@
     box-sizing: border-box;
 }
 
+.my-header {
+    height: 75px;
+}
+
+.my-main {
+    height: calc(100vh - 75px);
+}
+
+.my-search-bar {
+    box-shadow: none;
+}
+
+.my-aside {
+    background-color: rgb(15, 38, 60);
+}
+
+.my-badge-button {
+    background-color: transparent;
+    border: none;
+}
+
 .badge {
     background-color: rgb(22, 91, 186);
 }
