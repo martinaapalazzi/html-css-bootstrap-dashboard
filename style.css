@@ -1,21 +1,25 @@
+/* RESET */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* HEADER */
+
 .my-header {
     height: 75px;
 }
 
-.my-main {
-    height: calc(100vh - 75px);
-}
-
 .my-search-bar {
     box-shadow: none;
-    border: 1px grey solid;
-    border-radius: 20px;
+}
+
+/* MAIN */
+
+.my-main {
+    height: calc(100vh - 75px);
 }
 
 .my-aside {
@@ -93,8 +97,6 @@
         display: none;
     }
 
-   
-
     .icons-none {
         display: none;
     }
@@ -114,13 +116,8 @@
         border: none;
         background-color: transparent;
     }
-
-
 }
     
-
-
-
 
 /* MEDIA QUERY TABLET */ 
 
@@ -138,13 +135,7 @@
     .my-data-inizio {
         display: none;
     }
-
-
 }
-
-
-
-
 
 
 /* MEDIA QUERY MOBILE */ 
